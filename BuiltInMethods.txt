@@ -1,0 +1,21 @@
+using System;
+class BuiltInMethods{
+
+   static void Main(string[] args)
+   {
+      
+     DateTime now1 = DateTime.Now;
+     now1 = now1.AddYears(2);
+     Console.WriteLine("After addition years"+now1);
+     Console.WriteLine("Enter Input");
+     String input=Console.ReadLine();
+     Console.WriteLine("Your output is "+ input);  
+   
+     
+
+
+   }
+
+
+
+}
